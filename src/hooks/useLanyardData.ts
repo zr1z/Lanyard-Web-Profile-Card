@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { LanyardData } from '../types/LanyardData';
 
-const fetchId = "discordId";
+const fetchId = "1143321328405971064";
 
 export const useLanyardData = () => {
   const [userData, setUserData] = useState<LanyardData | null>(null);
